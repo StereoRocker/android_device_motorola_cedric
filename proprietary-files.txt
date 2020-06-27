@@ -219,7 +219,7 @@ lib/libzxingcpp.so
 -vendor/app/ims/ims.apk
 -vendor/app/imssettings/imssettings.apk
 vendor/bin/audioflacapp
-vendor/bin/esepmdaemon
+#vendor/bin/esepmdaemon
 vendor/bin/perfd
 vendor/bin/qseeproxydaemon
 vendor/bin/qseeproxysampledaemon
