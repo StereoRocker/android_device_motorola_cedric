@@ -857,3 +857,10 @@ vendor/lib/rfsa/adsp/libscveTextReco_skel.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
 vendor/qcril.db
+
+
+# Ubuntu Touch
+# These files have been stolen from stefanomelchior/android_vendor_bq_tenshi
+vendor/lib/hw/sound_trigger.primary.msm8937.so
+vendor/lib/libaudiodevarb.so
+vendor/lib/libhwdaphal.so
