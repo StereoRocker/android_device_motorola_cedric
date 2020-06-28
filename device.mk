@@ -285,6 +285,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 # Ubuntu Touch
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/ubuntu/lib/udev/rules.d/70-cedric.rules:system/halium/lib/udev/rules.d/70-cedric.rules \
-	$(LOCAL_PATH)/ubuntu/etc/ubuntu-touch-session.d/cedric.conf:system/halium/etc/ubuntu-touch-session.d/cedric.conf \
+	$(LOCAL_PATH)/ubuntu/lib/udev/rules.d/70-android.rules:system/halium/lib/udev/rules.d/70-android.rules \
+	$(LOCAL_PATH)/ubuntu/etc/ubuntu-touch-session.d/android.conf:system/halium/etc/ubuntu-touch-session.d/cedric.conf \
 	$(LOCAL_PATH)/ubuntu/etc/init/wlan-insmod.conf:system/halium/etc/init/wlan-insmod.conf
