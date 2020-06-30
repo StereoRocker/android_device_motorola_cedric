@@ -166,10 +166,14 @@
   owner @{HOMEDIRS}/.ecryptfs/*/.Private/** mrixwlk,
 
   # Cedric ubports rules
-  # Allow all applications inheriting base to access system + vendor libs
+  # Allow all applications inheriting base to access Android system + vendor
+  # libraries
   /{,android/}vendor/lib/**				r,
   /{,android/}vendor/lib/**.so			m,
   /{,android/}system/lib/**				r,
   /{,android/}system/lib/**.so			m,
   /{,android/}system/vendor/lib/**		r,
   /{,android/}system/vendor/lib/**.so	m,
+
+  # Allow access to soc id (read-only, should be safe)
+  /sys/devices/soc0/soc_id
