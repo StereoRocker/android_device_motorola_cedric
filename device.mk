@@ -288,5 +288,5 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/ubuntu/70-cedric.rules:system/halium/lib/udev/rules.d/70-android.rules \
 	$(LOCAL_PATH)/ubuntu/display.conf:system/halium/etc/ubuntu-touch-session.d/android.conf \
 	$(LOCAL_PATH)/ubuntu/init_hcismd_up.sh:/system/etc/init_hcismd_up.sh \
-	$(LOCAL_PATH)/ubuntu/apparmor.d/abstractions/base:system/halium/etc/apparmor.d/abstractions/base
+	$(LOCAL_PATH)/ubuntu/apparmor.d/abstractions/base:system/halium/etc/apparmor.d/abstractions/base \
 	$(LOCAL_PATH)/ubuntu/apparmor.d/abstractions/hardware/graphics.d/apparmor-easyprof-ubuntu_cedric:system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_cedric
